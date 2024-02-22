@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #004d40; /* Teal background */
+    color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.menu li.active, .menu li:hover {
+    background-color: #00796b; /* Lighter teal */
+}
+
+/* Main Content Styles */
+.timetable-content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 40px;
+}
+
+.timetable-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-live, .btn-recorded {
+    background-color: #26a69a; /* Teal color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.timetable th, .timetable td {
+    border: 1px solid #b2dfdb; /* Teal border */
+    padding: 10px;
+    text-align: left;
+}
+
+.timetable th {
+    background-color: #00796b; /* Dark teal */
+    color: white;
+}
+
+.timetable tbody tr:nth-child(even) {
+    background-color: #e0f2f1; /* Light teal background */
+}
+
+.timetable-pagination {
+    text-align: right;
+}
+
+.timetable-pagination button {
+    background-color: #26a69a; /* Teal color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.timetable-pagination button:hover {
+    background-color: #00796b; /* Dark teal */
+}
+
+/* Settings Page Styles */
+.settings-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.settings-content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 40px;
+    background-color: #e0f2f1; /* Light teal background */
+    width: calc(100% - 250px); /* Considering sidebar */
+}
+
+.settings-header h1 {
+    color: #00695c; /* Dark teal color */
+    margin-bottom: 30px;
+}
+
+.settings-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.settings-options li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.settings-options li:hover {
+    background-color: #b2dfdb; /* Light teal background */
+}
+
+.settings-options li i {
+    margin-right: 10px;
+}
+
+.logout {
+    margin-top: 30px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.logout:hover {
+    color: #f44336; /* Change color on hover */
+}

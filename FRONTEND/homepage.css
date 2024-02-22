@@ -11,6 +11,8 @@ body, h1, p {
   display: flex;
   align-items: center;
   padding: 10px 20px;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar-container {
@@ -74,13 +76,15 @@ body, h1, p {
   text-decoration: none;
   background-color: #f8ce0b;
   color: black;
+  font-size: 18px;
   padding: 10px 30px;
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 
 .cta:hover {
-  background-color: #e0b409;
+  background-color: #f8cd0b99;
+  font-size: 20px;
 }
 
 /* Footer Styles */
@@ -117,7 +121,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 padding: 50px 20px;
-background-color: #e0f2f1; /* Light teal background */
+background-color: #e0f2f1; 
 }
 
 .about-container {

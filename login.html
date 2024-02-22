@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Additional styles can be placed here */
+        body {
+            background-color: #64d8cb; /* Adjusted for teal background */
+            background-image: url('https://placehold.co/600x800.png'); /* Placeholder for translucent background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-blend-mode: overlay;
+            background-color: rgba(255, 255, 255, 0.8); /* White with opacity for translucency */
+        }
+        .teal-theme {
+            color: #319795; /* Tailwind CSS Teal-600 */
+        }
+        .teal-theme-bg, .teal-theme-bg:hover {
+            background-color: #319795; /* Tailwind CSS Teal-600 */
+        }
+        .teal-theme-border {
+            border-color: #319795; /* Tailwind CSS Teal-600 */
+        }
+        /* Ensure links are always teal */
+        a.teal-theme, a.teal-theme:hover {
+            color: #319795; /* Tailwind CSS Teal-600 */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center h-screen font-roboto">
+    <div class="bg-white bg-opacity-75 p-8 rounded-lg shadow-md w-full max-w-md">
+        <div class="flex flex-col items-center">
+            <img src="https://placehold.co/100x100" alt="Logo of an educational institution, depicting a shield with wheat ears and a book, signifying knowledge and growth" class="mb-4">
+            <h2 class="text-2xl teal-theme mb-8">Signup Your Account</h2>
+        </div>
+        <form action="#" method="POST">
+            <div class="mb-4">
+                <input type="text" name="username" placeholder="Username" class="w-full p-2 border teal-theme-border rounded">
+            </div>
+            <div class="mb-4">
+                <input type="email" name="email" placeholder="Email" class="w-full p-2 border teal-theme-border rounded">
+            </div>
+            <div class="mb-6">
+                <input type="password" name="password" placeholder="Password" class="w-full p-2 border teal-theme-border rounded">
+            </div>
+            <div class="flex flex-col items-center">
+                <button type="submit" class="w-full text-white p-2 rounded teal-theme-bg" style="background-color: #319795;">Sign Up</button>
+                <a href="signin.html" class="mt-4 teal-theme">Already have an account? Sign in</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

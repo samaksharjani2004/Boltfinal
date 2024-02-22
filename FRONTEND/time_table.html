@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table - EduConnect</title>
+    <link rel="stylesheet" href="timetable.css">
+</head>
+<body>
+    <div class="timetable-container">
+        <aside class="sidebar">
+            <!-- Sidebar content, assuming use of Font Awesome for icons -->
+            <div class="profile-info">
+                <img src="profile.jpg" alt="Profile image" class="profile-picture">
+                <h3>Hi, Student</h3>
+                <p>E173037</p>
+            </div>
+            <ul class="menu">
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-book"></i> My Courses</li>
+                <li><i class="fas fa-edit"></i> Assignments</li>
+                <li class="active"><i class="fas fa-table"></i> Time Table</li>
+                <li><i class="fas fa-comments"></i> Forum</li>
+                <li><i class="fas fa-cog"></i> Settings</li>
+            </ul>
+        </aside>
+        <main class="timetable-content">
+            <header class="timetable-header">
+                <h1>Time Table</h1>
+                <button class="btn-live">Live Class</button>
+                <button class="btn-recorded">Recorded Class</button>
+            </header>
+            <table class="timetable">
+                <thead>
+                    <tr>
+                        <th>Lecture Name</th>
+                        <th>Subject</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Professor 1</td>
+                        <td>English</td>
+                        <td>9:00 AM</td>
+                        <td>10:00 AM</td>
+                        <td>20/10/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Professor 2</td>
+                        <td>Maths</td>
+                        <td>10:00 AM</td>
+                        <td>11:00 AM</td>
+                        <td>20/10/2023</td>
+                    </tr>
+                    <!-- Repeat for other entries -->
+                </tbody>
+            </table>
+            <div class="timetable-pagination">
+                <button>Previous</button>
+                <button>Next</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

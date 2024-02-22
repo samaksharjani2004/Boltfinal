@@ -44,8 +44,7 @@ a{
 }
 
 .menu li.active, .menu li:hover {
-    background-color: #00796b; /* Lighter teal */
-}
+    background-color: #00796b; 
 
 /* My Courses Page Styles */
 .courses-container {
@@ -54,14 +53,14 @@ a{
 }
 
 .courses-content {
-    margin-left: 250px; /* Same as sidebar width */
+    margin-left: 250px; 
     padding: 40px;
-    background-color: #e0f2f1; /* Light teal background */
-    width: calc(100% - 250px); /* Considering sidebar */
+    background-color: #e0f2f1; 
+    width: calc(100% - 250px); 
 }
 
 .courses-header h1 {
-    color: #00695c; /* Dark teal color */
+    color: #00695c; 
     margin-bottom: 20px;
 }
 
@@ -72,7 +71,7 @@ a{
 }
 
 .course-card {
-    background-color: #26a69a; /* Teal color */
+    background-color: #26a69a; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -88,18 +87,18 @@ a{
 }
 
 .course-modules th, .course-modules td {
-    border: 1px solid #b2dfdb; /* Teal border */
+    border: 1px solid #b2dfdb; 
     padding: 10px;
     text-align: left;
 }
 
 .course-modules th {
-    background-color: #00796b; /* Dark teal */
+    background-color: #00796b; 
     color: white;
 }
 
 .course-modules tbody tr:nth-child(even) {
-    background-color: #b2dfdb; /* Light teal background */
+    background-color: #b2dfdb; 
 }
 
 .modules-pagination {
@@ -107,7 +106,7 @@ a{
 }
 
 .modules-pagination button {
-    background-color: #26a69a; /* Teal color */
+    background-color: #26a69a; /
     color: white;
     border: none;
     padding: 10px 20px;
@@ -118,5 +117,5 @@ a{
 }
 
 .modules-pagination button:hover {
-    background-color: #00796b; /* Darker teal */
+    background-color: #00796b;
 }

@@ -11,7 +11,7 @@ body, h1, h2, h3, p {
 
 /* Sidebar Styles */
 .sidebar {
-    background-color: #004d40; /* Teal background */
+    background-color: #004d40; 
     color: #ffffff;
     padding: 20px;
     width: 250px;
@@ -46,12 +46,12 @@ a{
 }
 
 .menu li.active, .menu li:hover {
-    background-color: #00796b; /* Lighter teal */
+    background-color: #00796b;
 }
 
 /* Main Content Styles */
 .timetable-content {
-    margin-left: 250px; /* Same as sidebar width */
+    margin-left: 250px; 
     padding: 40px;
 }
 
@@ -63,7 +63,7 @@ a{
 }
 
 .btn-live, .btn-recorded {
-    background-color: #26a69a; /* Teal color */
+    background-color: #26a69a; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -79,18 +79,18 @@ a{
 }
 
 .timetable th, .timetable td {
-    border: 1px solid #b2dfdb; /* Teal border */
+    border: 1px solid #b2dfdb; 
     padding: 10px;
     text-align: left;
 }
 
 .timetable th {
-    background-color: #00796b; /* Dark teal */
+    background-color: #00796b; 
     color: white;
 }
 
 .timetable tbody tr:nth-child(even) {
-    background-color: #e0f2f1; /* Light teal background */
+    background-color: #e0f2f1; 
 }
 
 .timetable-pagination {
@@ -98,7 +98,7 @@ a{
 }
 
 .timetable-pagination button {
-    background-color: #26a69a; /* Teal color */
+    background-color: #26a69a;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -109,5 +109,4 @@ a{
 }
 
 .timetable-pagination button:hover {
-    background-color: #00796b; /* Dark teal */
-}
+    background-color: #00796b; 

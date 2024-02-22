@@ -44,7 +44,7 @@ a{
 }
 
 .menu li.active, .menu li:hover {
-    background-color: #00796b; /* Lighter teal */
+    background-color: #00796b; 
 }
 
 
@@ -55,14 +55,14 @@ a{
 }
 
 .settings-content {
-    margin-left: 250px; /* Same as sidebar width */
+    margin-left: 250px; 
     padding: 40px;
-    background-color: #e0f2f1; /* Light teal background */
-    width: calc(100% - 250px); /* Considering sidebar */
+    background-color: #e0f2f1; 
+    width: calc(100% - 250px); 
 }
 
 .settings-header h1 {
-    color: #00695c; /* Dark teal color */
+    color: #00695c; 
     margin-bottom: 30px;
 }
 
@@ -81,7 +81,7 @@ a{
 }
 
 .settings-options li:hover {
-    background-color: #b2dfdb; /* Light teal background */
+    background-color: #b2dfdb;
 }
 
 .settings-options li i {
@@ -95,5 +95,5 @@ a{
 }
 
 .logout:hover {
-    color: #f44336; /* Change color on hover */
+    color: #f44336;
 }

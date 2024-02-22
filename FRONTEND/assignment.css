@@ -44,7 +44,7 @@ a{
 }
 
 .menu li.active, .menu li:hover {
-    background-color: #00796b; /* Lighter teal */
+    background-color: #00796b; 
 }
 
 /* Assignments Page Styles */
@@ -54,14 +54,13 @@ a{
 }
 
 .assignments-content {
-    margin-left: 250px; /* Same as sidebar width */
+    margin-left: 250px; 
     padding: 40px;
-    background-color: #e0f2f1; /* Light teal background */
-    width: calc(100% - 250px); /* Considering sidebar */
-}
+    background-color: #e0f2f1; 
+    width: calc(100% - 250px); 
 
 .assignments-header h1 {
-    color: #00695c; /* Dark teal color */
+    color: #00695c; 
     margin-bottom: 30px;
 }
 
@@ -72,26 +71,26 @@ a{
 }
 
 .assignments-table th, .assignments-table td {
-    border: 1px solid #b2dfdb; /* Teal border */
+    border: 1px solid #b2dfdb; 
     padding: 10px;
     text-align: left;
 }
 
 .assignments-table th {
-    background-color: #00796b; /* Dark teal */
+    background-color: #00796b; 
     color: white;
 }
 
 .assignments-table tbody tr:nth-child(even) {
-    background-color: #b2dfdb; /* Light teal background */
+    background-color: #b2dfdb; 
 }
 
 .assignments-table i.fas.fa-check-circle {
-    color: #81c784; /* Green for check */
+    color: #81c784; 
 }
 
 .assignments-table i.fas.fa-times-circle {
-    color: #e57373; /* Red for times */
+    color: #e57373; 
 }
 
 .assignments-pagination {
@@ -99,7 +98,7 @@ a{
 }
 
 .assignments-pagination button {
-    background-color: #26a69a; /* Teal color */
+    background-color: #26a69a; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -110,18 +109,18 @@ a{
 }
 
 .assignments-pagination button:hover {
-    background-color: #00796b; /* Darker teal */
+    background-color: #00796b; 
 }
 
 /* Styling for status indicators /
 .status-submitted {
-color: #43a047; / Green for submitted */
-}
+color: #43a047; / Green for submitted 
+}*/
 
 .status-pending {
-color: #fb8c00; /* Orange for pending */
+color: #fb8c00; 
 }
 
 .status-late {
-color: #e53935; /* Red for late submission */
+color: #e53935; 
 }

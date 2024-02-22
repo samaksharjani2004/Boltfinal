@@ -44,7 +44,7 @@ a{
 }
 
 .menu li.active, .menu li:hover {
-    background-color: #00796b; /* Lighter teal */
+    background-color: #00796b; 
 }
 
 /* Dashboard Page Styles */
@@ -54,14 +54,14 @@ a{
 }
 
 .dashboard-content {
-    margin-left: 250px; /* Same as sidebar width */
+    margin-left: 250px; 
     padding: 40px;
-    background-color: #e0f2f1; /* Light teal background */
-    width: calc(100% - 250px); /* Considering sidebar */
+    background-color: #e0f2f1; 
+    width: calc(100% - 250px); /
 }
 
 .dashboard-header h1 {
-    color: #00695c; /* Dark teal color */
+    color: #00695c; 
     margin-bottom: 20px;
 }
 
@@ -80,7 +80,7 @@ a{
 }
 
 .progress-item {
-    background-color: #26a69a; /* Teal color */
+    background-color: #26a69a; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -95,7 +95,7 @@ a{
 }
 
 .course-card {
-    background-color: #26a69a; /* Teal color */
+    background-color: #26a69a; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -105,7 +105,7 @@ a{
     margin-right: 10px;
 }
 
-/* Last course card doesn't need a margin on the right */
+/* Last course card*/
 .course-card:last-child {
     margin-right: 0;
 }

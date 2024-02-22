@@ -1,0 +1,219 @@
+/* Reset some basic elements */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #008080;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  margin-right: 150px;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('fin.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+.hero-content{
+  margin-left: 250px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.cta {
+  text-decoration: none;
+  background-color: #f8ce0b;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta:hover {
+  background-color: #e0b409;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide navbar items on small screens */
+  }
+
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+}
+
+
+/* About Section Styles */
+.about-section {
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 50px 20px;
+background-color: #e0f2f1; /* Light teal background */
+}
+
+.about-container {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.about-content {
+max-width: 600px;
+}
+
+.about-content h2 {
+font-size: 2em;
+color: #00695c; /* Darker teal color */
+margin-bottom: 1em;
+}
+
+.about-content p {
+color: #004d40; /* Even darker teal color */
+line-height: 1.5;
+margin-bottom: 1em;
+}
+
+
+.about-image img {
+max-width: 100%;
+height: auto;
+border-radius: 50%;
+}
+
+/* Responsive design for the About Section */
+@media (max-width: 768px) {
+.about-section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-container {
+    flex-direction: column;
+}
+
+.about-content, .about-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
+
+/* Contact Section Styles */
+.contact-section {
+background-color: #e0f2f1; /* Light teal background */
+padding: 50px 0;
+text-align: center;
+}
+
+.contact-container h2 {
+color: #00695c; /* Darker teal color */
+margin-bottom: 20px;
+}
+
+.contact-container p {
+color: #004d40; /* Even darker teal color */
+margin-bottom: 30px;
+}
+
+.contact-container a {
+color: #26a69a; /* Teal color */
+text-decoration: none;
+}
+
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 15px;
+margin-bottom: 20px;
+border: 1px solid #b2dfdb; /* Teal border */
+border-radius: 4px;
+}
+
+.contact-form button {
+background-color: #009688; /* Teal background */
+color: white;
+border: none;
+padding: 10px 30px;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+background-color: #00796b; /* Darker teal */
+}

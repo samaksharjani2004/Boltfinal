@@ -1,4 +1,3 @@
-/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@ body, h1, h2, h3, p {
 
 /* Sidebar Styles */
 .sidebar {
-    background-color: #004d40; /* Teal background */
+    background-color: #004d40;
     color: #ffffff;
     padding: 20px;
     width: 250px;
@@ -35,7 +34,6 @@ a{
     text-decoration: none;
     color: white;
 }
-
 .menu {
     list-style-type: none;
 }
@@ -49,55 +47,58 @@ a{
     background-color: #00796b; /* Lighter teal */
 }
 
-/* Main Content Styles */
-.timetable-content {
+/* Assignments Page Styles */
+.assignments-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.assignments-content {
     margin-left: 250px; /* Same as sidebar width */
     padding: 40px;
+    background-color: #e0f2f1; /* Light teal background */
+    width: calc(100% - 250px); /* Considering sidebar */
 }
 
-.timetable-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+.assignments-header h1 {
+    color: #00695c; /* Dark teal color */
+    margin-bottom: 30px;
 }
 
-.btn-live, .btn-recorded {
-    background-color: #26a69a; /* Teal color */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    outline: none;
-}
-
-.timetable {
+.assignments-table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
-.timetable th, .timetable td {
+.assignments-table th, .assignments-table td {
     border: 1px solid #b2dfdb; /* Teal border */
     padding: 10px;
     text-align: left;
 }
 
-.timetable th {
+.assignments-table th {
     background-color: #00796b; /* Dark teal */
     color: white;
 }
 
-.timetable tbody tr:nth-child(even) {
-    background-color: #e0f2f1; /* Light teal background */
+.assignments-table tbody tr:nth-child(even) {
+    background-color: #b2dfdb; /* Light teal background */
 }
 
-.timetable-pagination {
+.assignments-table i.fas.fa-check-circle {
+    color: #81c784; /* Green for check */
+}
+
+.assignments-table i.fas.fa-times-circle {
+    color: #e57373; /* Red for times */
+}
+
+.assignments-pagination {
     text-align: right;
 }
 
-.timetable-pagination button {
+.assignments-pagination button {
     background-color: #26a69a; /* Teal color */
     color: white;
     border: none;
@@ -108,6 +109,19 @@ a{
     outline: none;
 }
 
-.timetable-pagination button:hover {
-    background-color: #00796b; /* Dark teal */
+.assignments-pagination button:hover {
+    background-color: #00796b; /* Darker teal */
+}
+
+/* Styling for status indicators /
+.status-submitted {
+color: #43a047; / Green for submitted */
+}
+
+.status-pending {
+color: #fb8c00; /* Orange for pending */
+}
+
+.status-late {
+color: #e53935; /* Red for late submission */
 }

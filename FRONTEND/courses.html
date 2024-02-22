@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses - EduConnect</title>
+    <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+    <div class="courses-container">
+        <aside class="sidebar">
+            <div class="profile-info">
+                <img src="profile.jpg" alt="Profile image" class="profile-picture">
+                <h3>Hi, Student</h3>
+                <p>E173037</p>
+            </div>
+            <ul class="menu">
+                <li><i class="fas fa-home"></i> Home</li>
+                <li class="active"><i class="fas fa-book"></i><a href="courses.html">My Courses</a></li>
+                <li><i class="fas fa-edit"></i><a href="assignment.html">Assignments</a></li>
+                <li><i class="fas fa-table"></i><a href="time_table.html">Time Table</a></li>
+                <li><i class="fas fa-comments"></i> Forum</li>
+                <li><i class="fas fa-cog"></i><a href="settings.html">Settings</a></li>
+            </ul>
+        </aside>
+        <main class="courses-content">
+            <header class="courses-header">
+                <h1>My Courses</h1>
+            </header>
+            <div class="course-cards">
+                <!-- Cards for courses -->
+                <div class="course-card">Diploma in English</div>
+                <div class="course-card">Diploma in IT</div>
+                <div class="course-card">HND in Computing</div>
+                <!-- Add more cards as needed -->
+            </div>
+            <div class="course-modules">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Module</th>
+                            <th>Subject</th>
+                            <th>Unit</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Module 01</td>
+                            <td>Programming</td>
+                            <td>Unit 01</td>
+                            <td>Completed</td>
+                        </tr>
+                        <!-- Repeat rows for other modules -->
+                    </tbody>
+                </table>
+                <div class="modules-pagination">
+                    <button>Previous</button>
+                    <button>Next</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

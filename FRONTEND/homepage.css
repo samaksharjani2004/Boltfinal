@@ -107,6 +107,7 @@ nav ul li a:hover::after{
   font-size: 20px;
   margin-left: 10px;
 }
+
 .header-text a{
   text-decoration: none;
 }
@@ -115,8 +116,6 @@ nav ul li a:hover::after{
 #about{
   padding: 80px 0;
   color: teal;
-
-
 }
 .row{
   display:flex;

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #004d40;
+    color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.menu li.active, .menu li:hover {
+    background-color: #00796b; /* Lighter teal */
+}
+
+/* Dashboard Page Styles */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.dashboard-content {
+    margin-left: 250px; /* Same as sidebar width */
+    padding: 40px;
+    background-color: #e0f2f1; /* Light teal background */
+    width: calc(100% - 250px); /* Considering sidebar */
+}
+
+.dashboard-header h1 {
+    color: #00695c; /* Dark teal color */
+    margin-bottom: 20px;
+}
+
+.dashboard-header div {
+    margin-bottom: 20px;
+}
+
+.announcements {
+    margin-bottom: 20px;
+}
+
+.progress-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.progress-item {
+    background-color: #26a69a; /* Teal color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 22%;
+    text-align: center;
+    color: white;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-card {
+    background-color: #26a69a; /* Teal color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+}
+
+/* Last course card doesn't need a margin on the right */
+.course-card:last-child {
+    margin-right: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .progress-overview {
+        flex-direction: column;
+    }
+
+    .progress-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .course-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
